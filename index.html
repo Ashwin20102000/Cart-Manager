@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sample Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/11/attachment_109489197.jpeg?auto=format&q=60&fit=max&w=930">
+    <link href="https://mdbootstrap.com/docs/jquery/css/hover-effects/">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+
+      font-family: 'Open Sans', sans-serif;
+    }
+        body::-webkit-scrollbar {
+            width: 12px;
+        }
+        body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+ 
+        body::-webkit-scrollbar-thumb 
+        {
+        background-color: cornflowerblue;
+        outline: 1px solid wheat;
+        }
+ 
+    #logo{
+      width: 66px;
+        height: 50px;
+        padding-left: 0px;
+        margin-left: 10%;
+            border-radius: 50px;
+            cursor: pointer;
+    }
+    #sas{
+      color: black;
+            text-decoration: none;
+            position: absolute;
+            right: 30px;
+            padding-right: 0px;
+            height: 46px;
+            margin-bottom: 7px;
+            margin-left: 30px;
+      list-style: none;
+      font-style: none;
+            padding-top: 6px;
+            padding-right: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-around; 
+            text-decoration: none;
+    }
+    ul,li{
+      padding-right: 30px;
+      text-decoration: none;
+    }
+        header
+        {
+          background-color: cornflowerblue;
+
+        }
+        .container a{
+            color: black;
+        }
+        #ftr a{
+            color: whitesmoke;
+        }
+        footer{
+            width: 100%;
+            height: 5vh;
+        }
+        a{
+            color: whitesmoke;
+        }
+        #ftr {
+            font-size: 11px;
+            height: 9px;
+                padding-right: 127px;
+                padding-left: 86px;
+            text-decoration: none;
+            list-style: none;
+            position: relative;
+            padding-top: 16px;
+            left: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-around;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-dark bg-info shadow-sm"style="padding-top: 2px;padding-bottom: 4px;height:60px">
+      <img id="logo" class="rounded-circle" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/11/attachment_109489197.jpeg?auto=format&q=60&fit=max&w=930">
+      <ul id="sas">
+        <li><a href="#">Sign In</li>
+        <li><a class="cart" href="#">Cart <span> 0</span> </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+        <div class="album py-5 bg-dark">
+            <div class="container">
+        
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <a href="#"><img src="https://sugentech.com/upload_files/TB_BOARD/o_1e9ru1qiv1ae7r5a114j1u3ba22a.jpg" class="bd-placeholder-img card-img-top" width="80%" height="225" focusable="true" role="img" aria-label="Placeholder: Thumbnail "></a>
+                        <div class="card-body">
+                      <a class="card-text"style="text-decoration:none" href="#">Covid-Tablet</a>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" id="ash" class="btn btn-sm btn-outline-secondary">ADD TO CART</button><span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <a href="#"><img src="https://sugentech.com/upload_files/TB_BOARD/o_1e9ru1qiv1ae7r5a114j1u3ba22a.jpg" class="bd-placeholder-img card-img-top" width="80%" height="225" focusable="true" role="img" aria-label="Placeholder: Thumbnail "></a>
+                          <div class="card-body">
+                        <a class="card-text"style="text-decoration:none" href="#">Covid-Tablet</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <a href="#"><img src="https://sugentech.com/upload_files/TB_BOARD/o_1e9ru1qiv1ae7r5a114j1u3ba22a.jpg" class="bd-placeholder-img card-img-top" width="80%" height="225" focusable="true" role="img" aria-label="Placeholder: Thumbnail "></a>
+                          <div class="card-body">
+                        <a class="card-text"style="text-decoration:none" href="#">Covid-Tablet</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <a href="#"><img src="https://sugentech.com/upload_files/TB_BOARD/o_1e9ru1qiv1ae7r5a114j1u3ba22a.jpg" class="bd-placeholder-img card-img-top" width="80%" height="225" focusable="true" role="img" aria-label="Placeholder: Thumbnail "></a>
+                          <div class="card-body">
+                        <a class="card-text"style="text-decoration:none" href="#">Covid-Tablet</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <a href="#"><img src="https://sugentech.com/upload_files/TB_BOARD/o_1e9ru1qiv1ae7r5a114j1u3ba22a.jpg" class="bd-placeholder-img card-img-top" width="80%" height="225" focusable="true" role="img" aria-label="Placeholder: Thumbnail "></a>
+                          <div class="card-body">
+                        <a class="card-text"style="text-decoration:none" href="#">Covid-Tablet</a>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">ADD TO CART</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+    
+    
+    </main>
+    <footer class="bg-primary">
+        <div class="container"style="padding-left:20px;padding-right:20px">
+            <ul id="ftr"> 
+                <li><a href="#">Privacy_Policy</a></li>
+                <li><a href="#">About_Us</a></li>
+                <li><a href="#">Contact_Us</a></li>
+                <li><a href="#">Hiring</a></li>
+            </ul>
+            
+        </div>
+        
+    </footer>
+  <script type="text/javascript">
+    let btn=document.querySelector(`.btn-group`);
+    btn.addEventListener('click',()=>btn.style.backgroundColor='lightblue');
+    let ash = document.querySelector(`#ash`)
+    btn.addEventListener('click',()=>ash.textContent="Out Of Stock");
+    let cart = document.querySelectorAll(`.btn-group`);
+
+
+    for (let i=0;i< cart.length;i++){
+      cart[i].addEventListener('click',()=> {
+        cartNum();
+      })
+    }
+
+    function refreshner(){
+      let prodNum = localStorage.getItem('cartNum');
+
+      if(prodNum) {
+        document.querySelector('.cart span').textContent = prodNum;
+
+      }
+    }
+    function cartNum() {
+      let prodNum = localStorage.getItem('cartNum');
+      prodNum =parseInt(prodNum);
+      
+      if( prodNum){
+        localStorage.setItem('cartNum',prodNum+1);
+        document.querySelector('.cart span').textContent = prodNum + 1;
+      }
+      else{
+        localStorage.setItem('cartNum',1);
+        document.querySelector('.cart span').textContent = 1;
+      }
+    }
+    refreshner();
+  </script>
+</body>
+</html>
